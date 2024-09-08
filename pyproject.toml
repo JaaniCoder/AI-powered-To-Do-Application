@@ -1,0 +1,22 @@
+# This project was generated with 0.3.19 using template: https://github.com/beeware/briefcase-template@v0.3.19
+[tool.briefcase]
+project_name = "To Do List Application"
+bundle = "com.example.todoapp"
+version = "0.0.1"
+url = "https://todoapp.example.com/ToDoApp"
+license.file = "LICENSE"
+author = "JaaniCoder"
+author_email = "theshayarguyjaani@gmail.com"
+
+[tool.briefcase.app.ToDoApp]
+formal_name = "To-Do List Application"
+description = "A to-do list application built using Flet and trained ai model using scikit-learn, nltk and pandas."
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/ToDoApp",
+]
+test_sources = [
+    "tests",
+]
+
